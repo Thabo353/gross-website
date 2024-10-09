@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-img {
+            width: 100%;
+            transition: transform 0.3s;
+        }
+
+        .product-img:hover {
+            transform: scale(1.1);
+        }
+
+        .footer-form img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .footer-form input[type="text"],
+        .footer-form input[type="email"] {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .footer-form button {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Loop through 10 items -->
+            <!-- Each item is in a separate col-md-4 column to use the Bootstrap grid system -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 1" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bonaqua stil 1.5L</h5>
+                        <p class="card-text">R19.95</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 2" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Twist</h5>
+                        <p class="card-text">R26.90 2L</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 3" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bread</h5>
+                        <p class="card-text">R19.00</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 4" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rolls x6</h5>
+                        <p class="card-text">R9.00</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 5" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Coca Cola 2L</h5>
+                        <p class="card-text">R26.90</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 6" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">lunch bar</h5>
+                        <p class="card-text">R18.90</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 7" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kit kat</h5>
+                        <p class="card-text">R12.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 8" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Simba BBQ</h5>
+                        <p class="card-text">R15.50</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 9" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lays Salty</h5>
+                        <p class="card-text">R17.50</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Product 10" class="card-img-top product-img">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Appletiser </h5>
+                        <p class="card-text">R16.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Contact Form -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <img src="https://via.placeholder.com/40" alt="Logo">
+                    <small class="d-inline-block ml-2">© 2023 Your Company</small>
+                </div>
+                <div class="col-md-6">
+                    <form class="footer-form d-flex">
+                        <input type="text" class="form-control mr-2" id="name" placeholder="Name">
+                        <input type="email" class="form-control mr-2" id="email" placeholder="Email">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
